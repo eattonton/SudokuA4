@@ -20,8 +20,10 @@ function CreateSudokuA4(category){
         text:"生成中"
     });
     toastDlg.Show();
-    ctx.clearRect(0,0,boardWidth,boardHeight);
-
+    //ctx.clearRect(0,0,boardWidth,boardHeight);
+    ctx.fillStyle = "white";
+    ctx.fillRect(0,0,boardWidth,boardHeight);
+    
     if(category == 1){
         hard= 8;
         //A4 四宫
