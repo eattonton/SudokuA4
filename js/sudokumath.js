@@ -363,7 +363,7 @@ function DrawImage(img0, cb) {
     let imgObj = new Image();
     imgObj.src = img0;
     imgObj.onload = function () {
-        ctx.drawImage(imgObj, 10, 10, 150, 150);
+        ctx.drawImage(imgObj, 25, 25, 150, 150);
         if (typeof cb == "function") {
             cb();
         }
