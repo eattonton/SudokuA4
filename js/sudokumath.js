@@ -41,6 +41,9 @@ function CreateSudokuA4(category){
     }else if(category == 5){
         hard= 72;
         CreateSudoKu9();
+    }else if(category == 6){
+        hard= 62;
+        CreateSudoKu9();
     }
 
     //二维码
