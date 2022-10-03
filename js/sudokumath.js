@@ -42,7 +42,7 @@ function CreateSudokuA4(category){
         hard= 72;
         CreateSudoKu9();
     }else if(category == 6){
-        hard= 62;
+        hard= 46;
         CreateSudoKu9();
     }
 
